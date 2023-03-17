@@ -96,6 +96,7 @@
     <Content Include="webb\images\g1.jpg" />
     <Content Include="webb\images\g2.jpg" />
     <Content Include="webb\images\g3.jpg" />
+    <Content Include="webb\images\profile2.png" />
     <Content Include="webb\index.html" />
     <Content Include="webb\w3layouts-License.txt" />
   </ItemGroup>
