@@ -16,8 +16,17 @@
                 <tr>
                     <td><%#Eval("ID") %></td>
                     <td><%#Eval("YETENEK") %></td>
-                    <td><a href="#" class="btn btn-danger">SİL</a></td>
-                    <td><a href="#" class="btn btn-success">GÜNCELLE</a></td>
+                    <td>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "YetenekSil.Aspx?ID=" + Eval("ID") %>' CssClass="btn btn-danger">SİL</asp:HyperLink >
+                    </td>
+
+                    <td>
+
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl='<%# "YetenekGuncelle.Aspx?ID=" + Eval("ID") %>' CssClass="btn btn-success" >Güncelle</asp:HyperLink>
+
+                    </td>
+
+
                 </tr>
             </ItemTemplate>
         </asp:Repeater>
