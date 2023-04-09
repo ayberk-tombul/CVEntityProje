@@ -27,6 +27,8 @@ namespace CVEntityProje
                 Response.Write("Hatalı Kullanıcı Adı veya Şifre Yazımı! ");
             }
 
+            (sorgu).ToList();
+
         }
     }
 }
